@@ -103,6 +103,16 @@ export default function C(){
     );
 }
 
+Bootstrap
+import Button from 'react-bootstrap/Button';
+import 'react-bootstrap/dist/react-bootstrap.min.css';
+function Counterbutton(props) {
+  return (<Button variant={props.color} onClick={props.fun} disabled={props.con}>{props.content}</Button>);
+}
+
+export default Counterbutton;
+
+
 
 
 
